@@ -14,18 +14,13 @@ public class sample{
 		for(i = 0;i < n;i++){
 			for(j = 0;j < n;j++) {
 				if(arr[i] == arr[j] && i != j) {
-					break;
-					
-					
+					break;	
 				}		
 			}
 			if(j == n) {
 				c += 1;
 			}
-			
-			
 		}
 			System.out.println(c);
-	}
-		
+	}	
 }
